@@ -3,7 +3,7 @@
 theme: seriph
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
-background: https://cover.sli.dev
+background: /images/bg.jpg
 # some information about your slides (markdown enabled)
 title: Welcome to Slidev
 info: |
@@ -51,13 +51,13 @@ transition: fade-out
    2. 有序列表与无序列表
    3. 插入（表格、图片、链接）
    4. ...等等
-2. 可拓展性高（支持自定义插件的形式增加工具栏功能，和内容区域的功能）
+2. 可拓展性高（支持以自定义插件的形式增加工具栏功能，和内容区域的功能）
 3. 工具栏和编辑区域能分开展示（布局自定义）  &#x20;
 4. 拆分模块编辑（块编辑器）
-5. 选择插入图片时可以wps回调我们的接口，列出可选图片（自定义插入图片功能）
+5. 选择插入图片时，可以回调我们系统中的接口，列出可选图片插入（自定义插入图片功能）
 6. 提供图片编辑按钮，可以跳转到我们系统编辑（自定义插入图片功能）
-7. 对图片的插入和删除可以给我们事件，以便管理图片与文件的关系（自定义插入图片功能）
-8. 插入表格时可以选择我们系统的表格（自定义表格功能）
+7. 对图片的插入和删除可以给我们事件，以便管理图片与文档的关系
+8. 支持导入数据快速生成表格（数据库导入，自定义表格功能）
 9. 对接AI，编辑时可以菜单支持我们插入自动生成的文本（AI功能）
 
 ---
@@ -127,24 +127,6 @@ Also, HTML elements are valid:
   <span>Right content</span>
 </div>
 -->
-
-
-
----
-level: 2
----
-
-# 开源富文本编辑器对比
-
-![](/images/image_WKlMKO_-fa.png)
-
-
-<!-- ![](/images/image_TjBmPnIVpM.png) -->
-
-
-<!-- ![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/7c13d57ad02e4027a93fb4658920e2c6~tplv-k3u1fbpfcp-jj-mark:3024:0:0:0:q75.awebp#?w=2400\&h=1272\&s=992176\&e=png\&b=fefdfd)
-
-![](/images/image_ZKgkKbqF9V.png) -->
 
 
 

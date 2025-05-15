@@ -79,7 +79,7 @@ level: 2
 <br>
 <br>
 
-Powered by [架构管理平台](https://sli.dev/guide/why)
+Powered by [架构管理平台](https://eamp.cmschina.com.cn)
 
 ---
 
@@ -100,8 +100,9 @@ Powered by [架构管理平台](https://sli.dev/guide/why)
 <!-- ./components/Counter.vue -->
 <Div v-click :count="10" m="t-5" />
 
+<div v-click class="text-teal-600 my-4 text-2xl">contenteditable + HTML + CSS</div>
 
-<div  v-click  mt-10>这就意味着网页上能展示的元素，编辑器中绝大多数都能展示，例如：文本、mp3/mp4、Image等等</div>
+<div v-click>这就意味着网页上能展示的元素，编辑器中绝大多数都能展示，例如：文本、mp3/mp4、Image等等</div>
 
 </div>
 <div>
